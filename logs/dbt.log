@@ -1,0 +1,59 @@
+[0m23:37:39.724132 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001232BDD2F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001233043F850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001232F1A6F50>]}
+
+
+============================== 23:37:39.728236 | d6291711-614f-4295-9cd5-672b18d32292 ==============================
+[0m23:37:39.728236 [info ] [MainThread]: Running with dbt=1.10.13
+[0m23:37:39.728236 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt init banking_dbt', 'cache_selected_only': 'False', 'write_json': 'True', 'no_print': 'None', 'log_format': 'default', 'warn_error': 'None', 'static_parser': 'True', 'partial_parse': 'True', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'use_experimental_parser': 'False', 'version_check': 'True', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Vinoth\\.dbt', 'use_colors': 'True', 'printer_width': '80', 'target_path': 'None'}
+[0m23:37:39.747378 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Vinoth\.dbt
+[0m23:37:39.749084 [info ] [MainThread]: A project called banking_dbt already exists here.
+[0m23:37:39.749084 [debug] [MainThread]: Command `dbt init` succeeded at 23:37:39.749084 after 0.09 seconds
+[0m23:37:39.750353 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000123289C1450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001232F080850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001232F1A6C10>]}
+[0m23:37:39.750353 [debug] [MainThread]: Flushing usage events
+[0m23:37:40.985714 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:38:52.167381 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017197FEB690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017197D966D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017197FEB750>]}
+
+
+============================== 23:38:52.171383 | eeacb679-e51f-4201-a269-50c0eb0fe2eb ==============================
+[0m23:38:52.171383 [info ] [MainThread]: Running with dbt=1.10.13
+[0m23:38:52.172382 [debug] [MainThread]: running dbt with arguments {'profiles_dir': 'C:\\Users\\Vinoth\\.dbt', 'cache_selected_only': 'False', 'use_colors': 'True', 'write_json': 'True', 'no_print': 'None', 'warn_error': 'None', 'static_parser': 'True', 'partial_parse': 'True', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'invocation_command': 'dbt init banking_dbt', 'printer_width': '80', 'target_path': 'None'}
+[0m23:38:52.190373 [debug] [MainThread]: Starter project path: C:\Users\Vinoth\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m23:38:52.251649 [info ] [MainThread]: 
+Your new dbt project "banking_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:38:52.252649 [info ] [MainThread]: Setting up your profile.
+[0m23:38:59.901962 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m23:38:59.901962 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m23:38:59.902962 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m23:42:21.535150 [info ] [MainThread]: Profile banking_dbt written to C:\Users\Vinoth\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:42:21.537151 [debug] [MainThread]: Command `dbt init` succeeded at 23:42:21.537151 after 209.45 seconds
+[0m23:42:21.537151 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017197D96010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001719804CD50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000171915E1450>]}
+[0m23:42:21.538136 [debug] [MainThread]: Flushing usage events
+[0m23:42:22.754146 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m08:36:00.678583 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BB8CD7FE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BB8CD0B7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BB8CD14910>]}
+
+
+============================== 08:36:00.681585 | 68e8cbf0-5fbc-4695-8916-3c67f14cc0d7 ==============================
+[0m08:36:00.681585 [info ] [MainThread]: Running with dbt=1.10.13
+[0m08:36:00.682585 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt run', 'printer_width': '80', 'write_json': 'True', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Vinoth\\.dbt', 'warn_error': 'None', 'static_parser': 'True', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'use_experimental_parser': 'False', 'version_check': 'True', 'quiet': 'False', 'introspect': 'True', 'empty': 'False', 'log_cache_events': 'False', 'debug': 'False', 'no_print': 'None', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None'}
+[0m08:36:00.683583 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Vinoth\Downloads\banking-modern-datastack\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m08:36:00.684582 [debug] [MainThread]: Command `dbt run` failed at 08:36:00.684582 after 0.10 seconds
+[0m08:36:00.684582 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BB8CD0A910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BB8CD0AB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BB8CD0B910>]}
+[0m08:36:00.685612 [debug] [MainThread]: Flushing usage events
+[0m08:36:01.852374 [debug] [MainThread]: An error was encountered while trying to flush usage events

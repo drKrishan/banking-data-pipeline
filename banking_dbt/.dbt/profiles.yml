@@ -1,0 +1,13 @@
+banking_dbt:
+  outputs:
+    dev:
+      account: pt77946.ap-south-1.aws
+      database: banking
+      password: Spoker900123456789
+      role: accountadmin
+      schema: analytics
+      threads: 4
+      type: snowflake
+      user: vinoth1996
+      warehouse: COMPUTE_WH
+  target: dev
